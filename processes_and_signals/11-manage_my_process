@@ -20,9 +20,4 @@ then
     echo "manage_my_process restarted"
 else
     echo "Usage: manage_my_process {start|stop|restart}"
-fi#!/usr/bin/env bash
-# Indefinitely writes "I am alive!" to /tmp/my_process
-while true; do
-	echo "I am alive!" > /tmp/my_process
-	sleep 2
-done
+fi
